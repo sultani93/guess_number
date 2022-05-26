@@ -16,7 +16,7 @@ document.querySelector('.check').addEventListener('click', function () {
     displayMessage('No number ⛔')
     // when wins
   } else if (guess === secretNumber) {
-    document.querySelector('.message').textContent = 'That is correct number ❤'
+    displayMessage('That is correct number ❤')
     document.getElementsByTagName('body')[0].style.backgroundColor = '#60b347'
     document.querySelector('.number').style.width = '30rem'
     document.querySelector('.number').textContent = secretNumber
